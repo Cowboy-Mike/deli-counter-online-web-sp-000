@@ -5,6 +5,6 @@ def line(katz_deli)
   when 0 
     puts "The line is currently empty."
   else 
-    puts katz_deli
+    puts "the line is currently: #{index+1}"
 end
 end
