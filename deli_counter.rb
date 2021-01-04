@@ -21,4 +21,6 @@ def take_a_number(katz_deli, name)
 def now_serving
   case katz_deli.length
   when 0 
-    puts ""
+    puts "There is nobody waiting to be served!"
+  else
+    
