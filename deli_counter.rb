@@ -9,5 +9,5 @@ def line(katz_deli)
     katz_deli.each.with_index(1) do |name, spot|
     current_line << "#{spot}. #{name}"
     end
-    current_line
+    puts current_line
 end
